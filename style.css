@@ -1,0 +1,21 @@
+/* Custom Styles for Taste Haven */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(rgba(221, 63, 63, 0.7), rgba(66, 25, 180, 0.7)), url('./images/hero.jpg.jpeg') center/cover no-repeat;
+    padding: 100px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    margin-top: auto;
+}
